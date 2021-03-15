@@ -50,6 +50,7 @@
             color:white;
             text-shadow: 0 1px 4px rgba(0,0,0,.2);
         }*/
+         .main{}
     </style>
     <div class="main">
         <div class="input" style="margin: auto">
