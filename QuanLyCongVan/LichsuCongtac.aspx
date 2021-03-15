@@ -26,6 +26,30 @@
             color:white;
             text-shadow: 0 1px 4px rgba(0,0,0,.2);
         }*/
+         /*.font {
+            font-size: 16px;
+        }
+
+        .xuly {
+            padding: 10px 20px;
+            margin: 0 auto;
+            display: block;
+            width: 50%;
+            padding-left: 20px;
+        }
+
+        .input {
+            font-size: 16px;
+            height: 2em;
+        }
+
+        .btn {
+            width: 4.4em;
+            height: 2em;
+            border-radius: 5px;
+            color:white;
+            text-shadow: 0 1px 4px rgba(0,0,0,.2);
+        }*/
     </style>
     <div class="main">
         <div class="input" style="margin: auto">
