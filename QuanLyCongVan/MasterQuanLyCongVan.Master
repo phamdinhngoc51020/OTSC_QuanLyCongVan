@@ -1,0 +1,69 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="MasterQuanLyCongVan.master.cs" Inherits="QuanLyCongVan.MasterQuanLyCongVan" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title></title>
+    <%-- <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css">--%>
+    <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/masterQuanLyCongVan.css" />
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div class="container">
+            <div class="header">
+                <div class="logo">
+                    <a href="#" title="Quản Lý công văn">Quản Lý Công Văn</a>
+                </div>
+                <%--<div class="contact-info">
+                    <ul>
+                        <li>
+                            <div class="contact-icon">
+                                <span  class="fa fa-envelope-o" aria-hidden="true" style="color: #1b9ce3; font-size: 25px;"></span>
+                            </div>
+                            <div class="contact-text">
+                                <label>Email</label>
+                                <span>QuanLyCongVan@gmail.com</span>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="contact-icon">
+                                <span class="fa fa-phone" aria-hidden="true" style="color: #1b9ce3; font-size: 25px;"></span>
+                            </div>
+                            <div class="contact-text">
+                                <label>SDT</label>
+                                <span>0985927985</span>
+                            </div>
+                        </li>
+                    </ul>
+                </div>--%>
+            </div>
+            <div class="main">
+                <div class="main-left">
+                    <ul class="menu-bo">
+                        <li><a href="Trangchu.aspx" title="Trang chủ">Trang chủ</a></li>
+                        <li><a href="Congvan.aspx" title="Quản lý công văn">Quản lý công văn</a></li>
+                        <li><a href="Canbo.aspx"" title="Quản lý cán bộ">Quản lý cán bộ</a></li>
+                        <li><a href="Bophan.aspx" title="Quản lý bộ phận">Quản lý bộ phận</a></li>
+                        <li><a href="Chucvu.aspx" title="Quản lý chức vụ">Quản lý chức vụ</a></li>
+                        <li><a href="#" title="Tài khoản">Tài khoản</a>
+                            <ul>
+                                <li><a href="#" title="Đổi mật khẩu">Đổi mật khẩu</a></li>
+                                <li><a href="#" title="Thoát">Thoát</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+                <div class="main-right">
+                    <asp:ContentPlaceHolder ID="Main" runat="server">
+                    </asp:ContentPlaceHolder>
+                </div>
+            </div>
+            <div class="footer">
+                #OTSC
+            </div>
+        </div>
+    </form>
+</body>
+</html>
